@@ -1,6 +1,6 @@
-package ch.bbw.wysiwyg;
+package ch.bbw.bca;
 
-import ch.bbw.wysiwyg.BlogPost;
+import ch.bbw.bca.model.BlogPost;
 import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;

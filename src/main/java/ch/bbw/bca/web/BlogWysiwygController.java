@@ -1,7 +1,7 @@
-package ch.bbw.wysiwyg;
+package ch.bbw.bca.web;
 
-import ch.bbw.wysiwyg.BlogDBSimulator;
-import ch.bbw.wysiwyg.BlogPost;
+import ch.bbw.bca.BlogDBSimulator;
+import ch.bbw.bca.model.BlogPost;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -11,12 +11,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/wysiwyg")
-public class WysiwygController {
+public class BlogWysiwygController {
 
     private BlogDBSimulator blogDBSimulator;
 
     @Autowired
-    public WysiwygController(BlogDBSimulator blogDBSimulator) {
+    public BlogWysiwygController(BlogDBSimulator blogDBSimulator) {
         this.blogDBSimulator = blogDBSimulator;
     }
 

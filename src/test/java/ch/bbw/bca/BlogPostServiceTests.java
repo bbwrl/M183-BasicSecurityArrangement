@@ -1,6 +1,5 @@
-package ch.bbw.example;
+package ch.bbw.bca;
 
-import ch.bbw.wysiwyg.BlogDBSimulator;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,5 +1,7 @@
-package ch.bbw.wysiwyg;
+package ch.bbw.bca.api;
 
+import ch.bbw.bca.BlogDBSimulator;
+import ch.bbw.bca.model.BlogPost;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -9,12 +11,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("blogpost")
-public class RESTController {
+public class APIRestController {
 
     private BlogDBSimulator blogDBSimulator;
 
     @Autowired
-    public RESTController(BlogDBSimulator blogDBSimulator) {
+    public APIRestController(BlogDBSimulator blogDBSimulator) {
         this.blogDBSimulator = blogDBSimulator;
     }
 

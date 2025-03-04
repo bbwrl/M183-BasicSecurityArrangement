@@ -1,11 +1,10 @@
-package ch.bbw.example;
+package ch.bbw.bca;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan({"ch.bbw.wysiwyg"})
+//@ComponentScan({"ch.bbw.wysiwyg"})
 public class BasicSecurityArrangementApplication {
 
     public static void main(String[] args) {

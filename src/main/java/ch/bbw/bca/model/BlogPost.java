@@ -1,4 +1,4 @@
-package ch.bbw.wysiwyg;
+package ch.bbw.bca.model;
 
 public class BlogPost {
 

@@ -1,10 +1,10 @@
-package ch.bbw.example;
+package ch.bbw.bca;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
-public class MainController {
+public class WebController {
 
     @GetMapping
     public String home() {
